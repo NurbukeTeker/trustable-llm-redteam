@@ -7,7 +7,7 @@ Prompt-injection test runner.
 - Writes results to a CSV file (timestamp, prompt, snippet, flag, full_output).
 
 Usage:
-python scripts/injection_test.py --prompts prompts/injection_prompts.json --out results/run.csv
+python -m scripts.injection_test --prompts .\prompts\injection_prompts.json --out .\results\run1.csv
 """
 
 import argparse
